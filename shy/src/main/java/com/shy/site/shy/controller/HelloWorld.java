@@ -1,7 +1,7 @@
 /*
  * @Author: shy
  * @Date: 2021-05-19 15:46:57
- * @LastEditTime: 2021-05-20 17:19:13
+ * @LastEditTime: 2021-05-21 15:07:09
  * @LastEditors: Please set LastEditors
  * @Description: test start
  * @FilePath: \mysite\shy\src\main\java\com\shy\site\shy\controller\HelloWorld.java
@@ -28,6 +28,6 @@ public class HelloWorld {
     public String helloWorld() {
         System.out.println("你没有mm");
         log.info("hello wolrd");
-        return "home";
+        return "index";
     }
 }

@@ -3,6 +3,8 @@ server:
   tomcat:
     accept-count: 1000
     max-connections: 1000
+  # servlet:
+  #   context-path: /site
 
 
 spring:
@@ -17,6 +19,11 @@ spring:
             password: root
     thymeleaf:
         prefix: classpath:static/htmls/
+    mvc:
+      static-path-pattern: /static/**
+    resources:
+      static-locations: classpath:/static/
+      
 
 logging:
   level:
